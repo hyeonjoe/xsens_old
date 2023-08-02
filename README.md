@@ -1,14 +1,16 @@
-# xsens_old
-xsens_old_driver( eg mti-28A53G35)
+xsens_old
+======================
+this repository contains xsens_old_driver( eg mti-28A53G35) for the purpose of backup
 
-JUST MAKE
+usage
+-------------------------------
+#### JUST MAKE
 
 if you have permission denied error
 
-$ ls -l /dev/ttyUSB0
+* $ ls -l /dev/ttyUSB0
 
-$id
+* $id
 
-$sudo usermod -a -G dialout [username]
-
+* $sudo usermod -a -G dialout [username]
 or maybe you have to install USB driver
